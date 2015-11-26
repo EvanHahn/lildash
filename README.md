@@ -8,5 +8,5 @@ The goals of this project are:
 - Make a utility library like Lodash or Underscore
 - CommonJS and _only_ CommonJS
 - You should be able to `require` only the pieces you need
-- Small filesize over performance
+- Small file size is more important than performance
 - Optimize for "normal" cases, not edge cases
