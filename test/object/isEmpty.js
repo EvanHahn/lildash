@@ -1,4 +1,4 @@
-var isEmpty = require('../../object/isEmpty');
+var isEmpty = require('../../object/isempty');
 
 describe('isEmpty', function () {
   it('returns true for empty objects', function () {
