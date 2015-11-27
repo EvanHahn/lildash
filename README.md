@@ -1,6 +1,8 @@
 lildash
 =======
 
+[![](https://travis-ci.org/EvanHahn/lildash.svg)](https://travis-ci.org/EvanHahn/lildash)
+
 A collection of JavaScript utilities. Inspired by [Lodash](https://lodash.com/) and [Underscore](http://underscorejs.org/).
 
 The goals of this project are:
