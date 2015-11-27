@@ -6,7 +6,7 @@ describe('assign', function () {
 
     expect(assign(obj)).to.equal(obj);
   });
-  
+
   it('merges two objects', function () {
     var a = {foo: 'yas', bar: 'ugh'};
     var b = {foo: 'nope', baz: 'wow'};
@@ -17,7 +17,7 @@ describe('assign', function () {
       baz: 'wow'
     });
   });
-  
+
   it('merges three objects', function () {
     var a = {foo: 'yas', bar: 'ugh'};
     var b = {foo: 'nope'};
@@ -29,7 +29,7 @@ describe('assign', function () {
       baz: 'cool'
     });
   });
-  
+
   it('returns the first object passed', function () {
     var a = {foo: 'yas', bar: 'ugh'};
     var b = {foo: 'nope', baz: 'wow'};

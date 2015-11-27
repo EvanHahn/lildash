@@ -1,3 +1,3 @@
 module.exports = function (v) {
-  return v !== v;
+  return v !== v;  // eslint-disable-line
 };
