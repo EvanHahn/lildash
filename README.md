@@ -3,7 +3,9 @@ lildash
 
 [![](https://travis-ci.org/EvanHahn/lildash.svg)](https://travis-ci.org/EvanHahn/lildash)
 
-A collection of JavaScript utilities. Inspired by [Lodash](https://lodash.com/) and [Underscore](http://underscorejs.org/).
+A collection of JavaScript utilities inspired by [Lodash](https://lodash.com/) and [Underscore](http://underscorejs.org/).
+
+Lodash and Underscore are great and they work well in all of the weird cases you can throw at it.
 
 The goals of this project are:
 
