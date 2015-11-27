@@ -1,27 +1,37 @@
 var isnan = require('../../utility/isnan');
 
 describe('isNaN', function () {
-  describe('returns true for', function () {
-    it('NaN', function () {
-      expect(isnan(0 / 0)).to.be.true;
-    });
+  it('returns true for NaN', function () {
+    expect(isnan(0 / 0)).to.be.true;
   });
 
-  describe('returns false for', function () {
-    it('numbers', function () {
-      expect(isnan(0)).to.be.false;
-      expect(isnan(-0)).to.be.false;
-      expect(isnan(1)).to.be.false;
-      expect(isnan(-1)).to.be.false;
-      expect(isnan(1.2)).to.be.false;
-      expect(isnan(-1.2)).to.be.false;
+  it('returns false for everything else', function () {
+    [
+      0,
+      -0,
+      1,
+      -1,
+      1.2,
+      -1.2,
+      1 / 0,
+      -1 / 0,
+      '',
+      ' ',
+      'hello',
+      {},
+      {foo: []},
+      {0: 'foo', length: 1},
+      undefined,
+      null,
+      true,
+      false,
+      function () {},
+      /foo/,
+      new Date()
+    ].forEach(function (value) {
+      expect(isnan(value)).to.equal(false);
     });
 
-    it('strings', function () {
-      expect(isnan('')).to.be.false;
-      expect(isnan(' ')).to.be.false;
-      expect(isnan('hello')).to.be.false;
-    });
+    expect(isnan(arguments)).to.equal(false);
   });
 });
-
