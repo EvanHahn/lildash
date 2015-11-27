@@ -1,4 +1,4 @@
-var isEmpty = require('../../array/isEmpty');
+var isEmpty = require('../../array/isempty');
 
 describe('isEmpty', function () {
   it('returns true for empty arrays', function () {
