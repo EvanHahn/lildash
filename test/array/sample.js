@@ -1,4 +1,4 @@
-var sample = require('../sample');
+var sample = require('../../array/sample');
 
 describe('sample', function () {
   describe('with one argument', function () {

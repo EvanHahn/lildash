@@ -1,4 +1,4 @@
-var once = require('../once');
+var once = require('../../function/once');
 
 describe('once', function () {
   it('makes a function that is only returned once', function () {

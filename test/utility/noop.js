@@ -1,4 +1,4 @@
-var noop = require('../noop');
+var noop = require('../../utility/noop');
 
 describe('noop', function () {
   it('is a function', function () {

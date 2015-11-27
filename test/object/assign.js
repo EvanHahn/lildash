@@ -1,4 +1,4 @@
-var assign = require('../assign');
+var assign = require('../../object/assign');
 
 describe('assign', function () {
   it('does nothing to one object', function () {

@@ -1,4 +1,4 @@
-var isnan = require('../isnan');
+var isnan = require('../../utility/isnan');
 
 describe('isNaN', function () {
   describe('returns true for', function () {

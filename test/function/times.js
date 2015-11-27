@@ -1,4 +1,4 @@
-var times = require('../times');
+var times = require('../../function/times');
 
 describe('times', function () {
   it('can call a function 0 times', function () {

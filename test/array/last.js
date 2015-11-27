@@ -1,4 +1,4 @@
-var last = require('../last');
+var last = require('../../array/last');
 
 describe('last', function () {
   describe('arrays', function () {

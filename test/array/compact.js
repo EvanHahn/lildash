@@ -1,4 +1,4 @@
-var compact = require('../compact');
+var compact = require('../../array/compact');
 
 describe('compact', function () {
   it('returns an empty array when passed an empty array', function () {

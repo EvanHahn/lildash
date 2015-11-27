@@ -1,4 +1,4 @@
-var identity = require('../identity');
+var identity = require('../../utility/identity');
 
 describe('identity', function () {
   it('returns undefined when passed no arguments', function () {

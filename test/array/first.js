@@ -1,4 +1,4 @@
-var first = require('../first');
+var first = require('../../array/first');
 
 describe('first', function () {
   describe('arrays', function () {

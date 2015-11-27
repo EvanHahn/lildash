@@ -1,4 +1,4 @@
-var isArray = require('../isarray');
+var isArray = require('../../utility/isarray');
 
 describe('isArray', function () {
   describe('returns true for', function () {

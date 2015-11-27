@@ -1,4 +1,4 @@
-var repeat = require('../repeat');
+var repeat = require('../../string/repeat');
 
 describe('repeat', function () {
   it('repeats the empty string', function () {

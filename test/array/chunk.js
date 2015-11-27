@@ -1,4 +1,4 @@
-var chunk = require('../chunk');
+var chunk = require('../../array/chunk');
 
 describe('chunk', function () {
   it('returns an empty array when passed an empty array', function () {
