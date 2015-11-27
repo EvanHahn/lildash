@@ -32,5 +32,6 @@ The goals of this project are:
 - CommonJS and _only_ CommonJS
 - You should be able to `require` only the pieces you need
 - Optimize for "normal" cases, not edge cases
+- Files should be relatively standalone so you can learn how these methods are written
 
 Documentation is coming soon!
