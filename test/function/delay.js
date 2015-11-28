@@ -23,7 +23,7 @@ describe('function/delay', function () {
     delay(function (arg) {
       var end = new Date();
 
-      expect(end - start).to.be.closeTo(100, 5);
+      expect(end - start).to.be.closeTo(100, 30);
       expect(arg).to.equal('foo');
 
       done();
