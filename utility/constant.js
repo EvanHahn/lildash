@@ -1,6 +1,7 @@
 /**
 Make a function that always returns the same value.
 
+@module utility/constant
 @param {} value Value to return.
 @returns {Function} Function that returns `value`.
 @example
@@ -11,10 +12,8 @@ fn();  // => 4
 fn();  // => 4
 fn();  // => 4
 */
-function constant (value) {
+module.exports = function (value) {
   return function () {
     return value;
   };
 }
-
-module.exports = constant;

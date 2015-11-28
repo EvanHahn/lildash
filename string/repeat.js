@@ -1,6 +1,7 @@
 /**
 Repeat a string.
 
+@module string/repeat
 @param {string} str The string to repeat.
 @param {amount} times How many times to repeat the string.
 @returns {string} The repeated string.
@@ -8,7 +9,7 @@ Repeat a string.
 var repeat = require('lildash/string/repeat');
 repeat('foo', 3);  // => 'foofoofoo'
 */
-function repeat (str, amount) {
+module.exports = function (str, amount) {
   var i;
   var result = '';
 
@@ -17,6 +18,4 @@ function repeat (str, amount) {
   }
 
   return result;
-}
-
-module.exports = repeat;
+};
