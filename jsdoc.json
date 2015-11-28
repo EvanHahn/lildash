@@ -1,0 +1,13 @@
+{
+  "pedantic": true,
+  "source": {
+    "exclude": ["node_modules", "test", "doc"]
+  },
+  "package": "./package.json",
+  "readme": "./README.md",
+  "plugins": ["plugins/markdown"],
+  "opts": {
+    "destination": "./doc",
+    "recurse": true
+  }
+}

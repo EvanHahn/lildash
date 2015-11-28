@@ -4,15 +4,23 @@
   "version": "0.0.0",
   "scripts": {
     "test": "npm run lint && mocha",
-    "lint": "semistandard"
+    "lint": "semistandard",
+    "doc": "jsdoc -c jsdoc.json ."
   },
   "devDependencies": {
     "chai": "^3.4.1",
+    "jsdoc": "^3.4.0",
     "mocha": "^2.3.4",
     "semistandard": "^7.0.4",
     "sinon": "^1.17.2"
   },
   "semistandard": {
-    "globals": ["describe", "it", "beforeEach", "afterEach", "expect"]
+    "globals": [
+      "describe",
+      "it",
+      "beforeEach",
+      "afterEach",
+      "expect"
+    ]
   }
 }
