@@ -2,7 +2,7 @@
 Make a function that always returns the same value.
 
 @module utility/constant
-@param {} value Value to return.
+@param {*} value Value to return.
 @returns {Function} Function that returns `value`.
 @example
 var constant = require('lildash/utility/constant');
@@ -16,4 +16,4 @@ module.exports = function (value) {
   return function () {
     return value;
   };
-}
+};
