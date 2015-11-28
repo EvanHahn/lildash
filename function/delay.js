@@ -1,7 +1,7 @@
 /**
 Delay a function for a number of milliseconds. Also lets you pass arguments.
 
-Effectively `setTimeout`.`
+Effectively `setTimeout`.
 
 @module function/delay
 @param {Function} fn The function to delay.
