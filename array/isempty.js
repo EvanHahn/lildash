@@ -2,7 +2,7 @@
 Is an array empty?
 
 @module array/isEmpty
-@param {Array} arr The string to check.
+@param {Array} arr The array to check.
 @returns {bool} Whether the array is empty.
 @example
 var isEmpty = require('lildash/array/isempty');
