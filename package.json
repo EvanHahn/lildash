@@ -1,7 +1,7 @@
 {
   "name": "lildash",
-  "private": true,
   "description": "a smaller version of Lodash",
+  "version": "0.0.0",
   "scripts": {
     "test": "npm run lint && mocha",
     "lint": "semistandard"
