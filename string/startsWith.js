@@ -1,3 +1,3 @@
-module.exports = function (str, char, position) {
-  return str.charAt(position) === char;
+module.exports = function (str, query, position) {
+  return str.substr(position, query.length) === query;
 };
