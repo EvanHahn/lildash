@@ -1,4 +1,4 @@
-var startsWith = require('../../string/startsWith');
+var startsWith = require('../../string/startswith');
 
 describe('startsWith', function () {
   it('returns true if input starts with given string at given position', function () {
