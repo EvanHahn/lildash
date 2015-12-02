@@ -10,7 +10,6 @@ describe('endsWith', function () {
   it('returns false if input does not end with given string', function () {
     expect(endsWith('foo', 'fo')).to.be.false;
     expect(endsWith('bar', 'ba')).to.be.false;
-    // expect(endsWith('cake', 'k', 1)).to.be.false;
   });
 
   it('returns true if input ends with given char', function () {
