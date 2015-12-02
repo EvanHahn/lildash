@@ -1,9 +1,9 @@
 /**
-Extracts words from str.
+Extracts words from a string.
 @module string/words
 @param {string} str The string from which to extract the words.
-@param {pattern} [pattern=] The pattern to match the words.
-@returns {array} Words that match the pattern.
+@param {regexp} [pattern=/\w+/g] Pattern that constitutes a word.
+@returns {array} The words.
 @example
 var words = require('lildash/string/words');
 words('foo bar');     // => ['foo', 'bar']
