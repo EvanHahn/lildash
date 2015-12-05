@@ -11,8 +11,8 @@ describe('trimRight', function () {
     { input: 'foo bar ', expected: 'foo bar' },
     { input: '   baz   ', expected: '   baz' },
     { input: '', expected: '' },
-    { input: '  ', expected: '' },
-  ].forEach(function(data) {
+    { input: '  ', expected: '' }
+  ].forEach(function (data) {
     it('returns correct result', function () {
       expect(trimRight(data.input)).to.equal(data.expected);
     });
@@ -23,11 +23,10 @@ describe('trimRight', function () {
     { input: 'bar', chars: '', expected: 'bar' },
     { input: '', chars: '', expected: '' },
     { input: 'bar123', chars: '2', expected: 'bar123' },
-    { input: '-_-abc-_-', chars: '_-', expected: '-_-abc' },
-  ].forEach(function(data) {
+    { input: '-_-abc-_-', chars: '_-', expected: '-_-abc' }
+  ].forEach(function (data) {
     it('with chars returns correct result', function () {
       expect(trimRight(data.input, data.chars)).to.equal(data.expected);
     });
   });
-
 });
