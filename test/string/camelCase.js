@@ -1,4 +1,4 @@
-var camelCase = require('../../string/camelCase');
+var camelCase = require('../../string/camelcase');
 
 describe('camelCase', function () {
   it('returns a string', function () {
@@ -15,7 +15,7 @@ describe('camelCase', function () {
     { input: '--', expected: '' }
   ];
   testData.forEach(function (data) {
-    it('returns correct result', function () {
+    it('returns correct result for ' + data.input, function () {
       expect(camelCase(data.input)).to.eql(data.expected);
     });
   });
