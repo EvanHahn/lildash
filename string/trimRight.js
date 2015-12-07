@@ -9,5 +9,5 @@ var trimRight = require('lildash/string/trimRight');
 trimRight('foo  ');  // => 'foo'
 */
 module.exports = function (str, chars) {
-  return str.replace(/[ ]*$/g, '');
+  return str.replace(/\s*$/g, '');
 };

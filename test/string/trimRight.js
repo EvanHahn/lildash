@@ -9,6 +9,8 @@ describe('trimRight', function () {
     { input: 'foo   ', expected: 'foo' },
     { input: 'bar ', expected: 'bar' },
     { input: 'foo bar ', expected: 'foo bar' },
+    { input: 'foo\t', expected: 'foo' },
+    { input: 'bar\t\t', expected: 'bar' },
     { input: '   baz   ', expected: '   baz' },
     { input: '', expected: '' },
     { input: '  ', expected: '' }
