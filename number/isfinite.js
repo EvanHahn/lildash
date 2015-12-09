@@ -10,6 +10,8 @@ isFinite(123);     // => true
 isFinite(1 / 0);   // => false
 isFinite(-1 / 0);  // => false
 */
+var inf = 1 / 0;
+
 module.exports = function (num) {
-  return num !== Infinity && num !== -Infinity;
+  return num !== inf && num !== -inf;
 };
