@@ -3,6 +3,8 @@ lildash
 
 [![](https://travis-ci.org/EvanHahn/lildash.svg)](https://travis-ci.org/EvanHahn/lildash)
 
+**No longer maintained. Use the better [101.js](https://github.com/tjmehta/101).**
+
 A collection of JavaScript utilities inspired by [Lodash](https://lodash.com/) and [Underscore](http://underscorejs.org/).
 
 Lodash and Underscore are great and they work well in all of the weird cases you can throw at them. But they can be pretty big.
